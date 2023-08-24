@@ -3,3 +3,7 @@
 .green-text{
   color:rgb(102, 247, 247); 
 }
+.green-frame {
+  border: 2px solid green; /* Définir la bordure de 2 pixels de couleur verte */
+  background-color: lightgreen; /* Définir la couleur de fond */
+  padding: 10px;
