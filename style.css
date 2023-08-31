@@ -26,6 +26,11 @@ figure {
   margin: 0;
 }
 
+figure img {
+  border-radius: 50%;
+
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -60,10 +65,8 @@ margin-top: 50px;
 padding-top: 20px;
 }
 
-img {
-display: flex;
-justify-content: flex-end;
-}
+
+
 
 h2 {
   font-size: 40px;
@@ -93,6 +96,14 @@ figure img {
   object-fit: contain;
 
 }
+.row {
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 
 .highlight {
   color: #04B4AE;
@@ -101,6 +112,7 @@ figure img {
 .taille {
   width: 50%;
 }
+
 .text {
   width: 80%;
   display: flex;  
@@ -157,4 +169,11 @@ figcaption {
   display: flex;  
   flex-direction: column;
   align-items: center;
+}
+.row {
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
