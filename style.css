@@ -1,9 +1,25 @@
 /****** General ***********/
 
-.green-text{
-  color:rgb(102, 247, 247); 
+img {
+  width: 120px;
+  height: 120px;
+
 }
-.green-frame {
-  border: 2px solid green; /* Définir la bordure de 2 pixels de couleur verte */
-  background-color: lightgreen; /* Définir la couleur de fond */
-  padding: 10px;
+
+.container {
+  background-color:#00CED1; /* Couleur de fond verte */
+  padding: 20px; /* Espace intérieur de 20 pixels autour du contenu */
+  height: 150px;
+  
+}
+
+nav {
+  background-color:; /* Couleur de fond noir */
+  padding: 20px; /* Espace intérieur de 20 pixels autour du contenu */
+}
+
+ul {
+  color:white;
+  text-decoration: none;
+  padding-right: 20px;
+}
