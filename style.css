@@ -1,8 +1,25 @@
 /****** General ***********/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+  background-color:#04B4AE ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  
 }
 
 figure {
@@ -15,8 +32,129 @@ img {
   object-fit: contain;
 } 
 
-a {
-  text-decoration: none;
-  color: inherit;  
+nav img{
+  height: 120px;
+  margin-left:60px;
+  
 }
 
+nav li {
+  margin-right: 2px;
+font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;  
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1 {
+font-size: 40px;
+color: #04B4AE;
+font-family: 'Font Awesome 6 Brands';
+text-align: center;
+margin-bottom: 50px;
+margin-top: 50px;
+padding-top: 20px;
+}
+
+img {
+display: flex;
+justify-content: flex-end;
+}
+
+h2 {
+  font-size: 40px;
+  color: #04B4AE;
+  font-family: 'Font Awesome 6 Brands';
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  text-align: center; 
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+
+}
+
+.highlight {
+  color: #04B4AE;
+}
+
+.taille {
+  width: 50%;
+}
+.text {
+  width: 80%;
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 0;
+}
+
+.container {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+figcaption {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+  padding-top: 20px;
+}
+
+.image {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+}
