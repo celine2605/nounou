@@ -1,31 +1,22 @@
 /****** General ***********/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
 
 img {
-  width: 120px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  
-
-
-}
-
-.container {
-  background-color:#00CED1; /* Couleur de fond verte */
-  padding: 20px; /* Espace intérieur de 20 pixels autour du contenu */
-  height: 200px;
-  display: flex;
-align-items: center;
- 
-
-
-}
-
-ul {
-color:white;
-list-style-type: none;
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-direction: row;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 } 
+
+a {
+  text-decoration: none;
+  color: inherit;  
+}
+
