@@ -8,12 +8,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 160px;
-  background-color: rgb(33, 183, 178)
+  background-color: rgb(223, 118, 136);
   
 }
 .icon {
   float: left;
-  color: rgb(245, 220, 242);
+  color: white;
 }
 
 ul {
@@ -86,7 +86,7 @@ p{
 
 h1 {
 font-size: 40px;
-color: #04B4AE;
+color: rgb(223, 118, 136);
 font-family: 'Font Awesome 6 Brands';
 text-align: center;
 margin-bottom: 50px;
@@ -103,7 +103,7 @@ padding-top: 20px;
 
 h2 {
   font-size: 40px;
-  color: #04B4AE;
+  color: rgb(223, 118, 136);
   font-family: 'Font Awesome 6 Brands';
   text-align: center;
   margin-bottom: 50px;
@@ -139,7 +139,7 @@ figure img {
 
 
 .highlight {
-  color: #04B4AE;
+  color: rgb(223, 118, 136);
 }
 
 .taille {
@@ -199,5 +199,5 @@ figcaption {
   text-align: center;
 }
 .cadre {
-  background-color: aquamarine;
+  background-color: pink;
 }
