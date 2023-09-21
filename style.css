@@ -3,13 +3,19 @@ html {
   scroll-behavior: smooth;
 }
 .nav {
+  background-color: rgb(223, 118, 136);
+  padding: 15px;
+  margin: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 160px;
-  background-color: rgb(223, 118, 136);
-  margin: 0;
-  padding: 0; 
+
+  
+
+  width: 100%;
+
+ 
+  
 
   
 }
@@ -24,6 +30,7 @@ nav ul {
   display: flex;
   align-items: center;
   
+  ;
 }
 @keyframes blink {
   0% {
@@ -187,53 +194,7 @@ img {
   margin-left: 25%;
   margin-right: 25%;
 
-}
-figcaption {
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-  color: black;
-  padding-top: 20px;
-}
 
-.image {
 
-  display: flex;  
-  flex-direction: column;
-  align-items: center;
-}
 
-.row {
-  display: flex;  
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.cadre {
-  background-color: pink;
-}
-.cadre {
-    background-color: var(--main-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    border-radius: var(--radius);
-    box-sizing: border-box;
-  }
- 
 
-  .Footer-presentation .Footer_separation {
-    width: 1px;
-    height: 150px;
-    background-color: var(--brown-dark-color);
-    margin: 0 50px;
-    opacity: .2;
-}
-
-.image-cadre {
-  position: relative;
-  width: 200px;
-  height: 220px;
-}
