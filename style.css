@@ -201,3 +201,27 @@ figcaption {
 .cadre {
   background-color: pink;
 }
+.cadre {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: var(--radius);
+    box-sizing: border-box;
+  }
+ 
+
+  .Footer-presentation .Footer_separation {
+    width: 1px;
+    height: 150px;
+    background-color: var(--brown-dark-color);
+    margin: 0 50px;
+    opacity: .2;
+}
+
+.image-cadre {
+  position: relative;
+  width: 200px;
+  height: 220px;
+}
