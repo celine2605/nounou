@@ -2,13 +2,15 @@
 html {
   scroll-behavior: smooth;
 }
-
-nav {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 160px;
   background-color: rgb(223, 118, 136);
+  margin: 0;
+  padding: 0; 
+
   
 }
 .icon {
@@ -16,11 +18,7 @@ nav {
   color: white;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+
 
 nav ul {
   display: flex;
@@ -43,21 +41,32 @@ h2 {
   animation: blink 1s infinite;
 }
 
-figure {
-  margin: 0;
+[id="quisuisje"] {
+  width: 70%;
+  margin: 50px auto;
+  border:solid 8px rgb(223, 118, 136);
+  padding: 50px;
 }
 
-figure img {
-  border-radius: 50%;
-
-}
 
 img {
   max-width: 90%;
   height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+
   object-fit: contain;
+  border-radius: 20%;
 } 
 
+[id="quisuisje"] img {
+  width: 500px;
+}
+
+[id="tarifs"] img {
+  width: auto;
+}
 
 .taille {
 font-size: 50px;
@@ -80,11 +89,12 @@ a {
   margin-left: 50px;
   margin-right: 50px;
 }
-p{
+
+p {
   line-height: 1.0;
 }
 
-h1 {
+h1, h2, h3, h4 {
 font-size: 40px;
 color: rgb(223, 118, 136);
 font-family: 'Font Awesome 6 Brands';
@@ -94,24 +104,6 @@ margin-top: 50px;
 padding-top: 20px;
 }
 
-.moi {
-  float: left;
-  vertical-align: center;
-  margin:auto;
-  
-}
-
-h2 {
-  font-size: 40px;
-  color: rgb(223, 118, 136);
-  font-family: 'Font Awesome 6 Brands';
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 p {
   text-align: center; 
   margin-bottom: 50px;
@@ -119,16 +111,40 @@ p {
   font-size: 30px;
   color: black;
   font-weight: bold;
-  font-family: 'Lato', sans-serif;
+  font-family:;
   font-style: italic;
 }
 
-figure img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
+ul {
+  list-style: none; 
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  font-family:;
+  font-style: italic;
+  border: 2px solid rgb(223, 118, 136);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: rgb(223, 118, 136);
+  padding: auto;
+
 
 }
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .row {
   display: flex;  
   flex-direction: row;
@@ -136,7 +152,6 @@ figure img {
   justify-content: center;
   text-align: center;
 }
-
 
 .highlight {
   color: rgb(223, 118, 136);
@@ -150,9 +165,6 @@ figure img {
   float: left;
   margin-right: 20px;
 }
-
-
-  
 
 .container {
   display: flex;  
@@ -189,8 +201,8 @@ figcaption {
   display: flex;  
   flex-direction: column;
   align-items: center;
- 
 }
+
 .row {
   display: flex;  
   flex-direction: row;
