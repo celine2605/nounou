@@ -2,36 +2,16 @@
 html {
   scroll-behavior: smooth;
 }
+
 .nav {
   background-color: rgb(223, 118, 136);
-  padding: 15px;
-  margin: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  
-
-  width: 100%;
-
  
-  
-
-  
-}
-.icon {
   float: left;
   color: white;
 }
 
 
 
-nav ul {
-  display: flex;
-  align-items: center;
-  
-  ;
-}
 @keyframes blink {
   0% {
     opacity: 1;
@@ -144,13 +124,7 @@ ul {
 
 }
 
-ul {
-  display: inline-block;
-  width: 50%;
-  vertical-align: top;
-  margin: 0;
-  padding: 0;
-}
+
 
 
 img {
