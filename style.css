@@ -3,10 +3,16 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  margin: 0 ;
+
+}
+
 .nav {
+  margin: 0 0 50px;
+  width: 100%;
   background-color: rgb(223, 118, 136);
- 
-  float: left;
+  display: flex;
   color: white;
 }
 
@@ -60,22 +66,25 @@ font-size: 50px;
 }
 
 nav img{
-  height: 120px;
-  margin-left:60px;
-  
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 nav li {
-  margin-right: 2px;
-font-size: 30px;
+  font-size: 30px;
 }
 
 a {
   text-decoration: none;
   color: whitesmoke;  
-  margin-left: 50px;
-  margin-right: 50px;
 }
+
+nav a {
+  display: flex;
+  gap: 10px;
+}
+
 
 p {
   line-height: 1.0;
@@ -105,23 +114,17 @@ p {
 ul {
   list-style: none; 
   text-align: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
   font-size: 30px;
   color: black;
   font-weight: bold;
-  font-family:;
   font-style: italic;
-  border: 2px solid rgb(223, 118, 136);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
   background-color: rgb(223, 118, 136);
   padding: auto;
-
-
+}
+nav ul{
+  display: flex;
+  margin-right: 20px;
+  gap: 40px;
 }
 
 
