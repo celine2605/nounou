@@ -181,4 +181,8 @@ img {
   nav span {
     display: none;
   }
+  .image {
+    float: none;
+
+  }
 }
