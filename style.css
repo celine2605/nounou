@@ -22,6 +22,7 @@ body{
 
 main {
   margin-top: 150px;
+  padding: 10px;
 }
 
 
@@ -189,4 +190,10 @@ img {
     float: none;
 
   }
-}
+  [id="quisuisje"] {
+    width: auto;
+  }
+  [id*="tarifs"] ul {
+    width: 90%;
+  }
+  }
